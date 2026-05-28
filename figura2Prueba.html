@@ -9,23 +9,22 @@
     <script>
          // Área del Cirulo
          
-            alert("A continuaciòn se pedira los valores del area del triangulo");
-               let base = parseFloat(prompt("Introduce la base del triángulo " ));
-               let altura = parseFloat(prompt("Introduce la altura del triángulo "));
-               let area = (base * altura) / 2;
+            alert("A continuaciòn se pedira los valores del area del circulo");
+               let radio = parseFloat(prompt("Introduce el valor del radio" ));
+               let area = Math.PI * (radio * radio);
 
 
             //Perimetro de Circulo
 
-            alert("A continuaciòn se pediran los valores del perimetro del triangulo");
-            let lado = parseFloat(prompt("Introduce el valor de sus lados"));
-            let perimetro = lado * lado ;
+            alert("A continuaciòn se pediran los valores del perimetro del circulo");
+            let Radio = parseFloat(prompt("Introduce el valor de su radio"));
+            let perimetro = 2 *(Math.PI * Radio);
 
             //Resultado
-            alert("El àrea del triangulo es:" + area);
-            console.log("El area del triangulo es:",area);
-            alert("El perimetro del triangulo es:" + perimetro);
-            console.log("El perimetro del triangulo es:", perimetro);
+            alert("El àrea del circulo es:" + area);
+            console.log("El area del circulo es:",area);
+            alert("El perimetro del circulo es:" + perimetro);
+            console.log("El perimetro del circulo es:", perimetro);
     </script>
 </body>
 </html>
